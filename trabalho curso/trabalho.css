@@ -1,0 +1,548 @@
+.navbar-inverse, .dropdown-menu{
+                background-color #000 !important;
+            }
+
+            .navbar-inverse a{
+            color: #ff0000; !important;
+            }
+            p.legenda{
+                -webkit-text: 1.3px black;
+                font-size: 30px;
+            }
+            div.row{
+                text-align: center;
+                font-style: oblique; 
+                color: #ff0000;          
+
+            }
+
+            h2.alert{
+                background-color: firebrick; !important
+                
+                
+            }
+            a.dropdown-item{
+                color:floralwhite;
+            }
+            a.dropdown-divider{
+                background-color: darkorange;
+            }
+           
+            body {
+            background-image: url(fundo.pizza.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            
+            backgound-image{
+                position: fixed;
+                width: 100%;
+                height: 100%;
+            }
+            
+            #carouselExampleControls{
+                margin-top: -50px;
+            }
+            
+            img{
+                width: 100px;
+            }
+            
+            a.nav-link{
+                position: relative;
+                left: 550px;
+                border: solid 1px white;
+                margin-left: 5px;
+                line-height: 20px;
+                margin-right: 20px;
+                
+            }
+            
+           
+            div.classica{
+                 border: solid 2px blue;;
+                text-align: center;
+                font-size: 15pt;
+                background-color: #ff0000;
+               
+            }
+            nav.navbar.navbar-expand-md.navbar-inverse.navbar-dark.bg-danger{
+                background-color: #ff0000;
+            }
+            h4{
+                color: white;
+            }
+            p.nossas{
+                color: white;
+            }
+            
+            img.logo{
+                position: relative;
+                left: 500px;
+                
+                
+            }
+            div.especial{
+                border: solid 1px blue;;
+                text-align: left;
+                font-size: 15pt;
+                background-color: blue;
+                color: white;
+                
+                
+            }
+            
+             div.inicie{
+                border: solid 20px #dc3545;;
+                text-align: left;
+                font-size: 15pt;
+                background-color: #dc3545;
+                 color: white;
+                
+                
+            }
+            img{
+                position:relative;
+                left: 10px;
+                
+                
+            }
+            div.premium{
+                border: solid 1px blue;;
+                text-align: left;
+                font-size: 15pt;
+                background-color: blue;
+                color: white;
+            }
+            
+            div.super{
+                border: solid 1px blue;;
+                text-align: left;
+                font-size: 15pt;
+                background-color: blue;
+                color: white;
+            }
+            img.log{
+               margin-left: auto;
+                left: 650px;
+                width: 200px;
+            }
+            
+            h5{
+                font-size: 15px;
+                
+            }
+            p{
+                font-size: 10px;
+            }
+            p.refri{
+                font-size: 15px;
+            }
+            
+            p.preco{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 150px;
+                margin-top: -30px;
+            }
+            
+            p.preco1{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 150px;
+                margin-top: -10px;
+            }
+            
+            p.preco2{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 150px;
+                margin-top: -10px;
+            }
+            
+            p.preco3{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 100px;
+                margin-top: -30px;
+            }
+            
+            p.preco4{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 100px;
+                margin-top: -10px;
+            }
+            
+            p.preco5{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 100px;
+                margin-top: -10px;
+            }
+            
+            p.preco6{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 160px;
+                margin-top: -30px;
+            }
+            
+            p.preco7{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 160px;
+                margin-top: -10px;
+            }
+            
+            p.preco8{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 160px;
+                margin-top: -10px;
+            }
+            
+            div.doces{
+                border: solid 1px blue;;
+                text-align: left;
+                font-size: 15pt;
+                background-color: blue;
+                color: white;
+                 
+            }
+            
+             p.preco9{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 130px;
+                margin-top: -30px;
+            }
+            
+             p.preco10{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 130px;
+                margin-top: -10px;
+            }
+            
+             p.preco11{
+                position: relative;
+                text-align: left;
+                font-size: 15px;
+                left: 130px;
+                margin-top: -10px;
+            }
+            button.btn{
+                position: relative;
+                left: 10px;
+                margin-top: 5px;
+            }
+        
+               .rodape{
+    background-color: #dc3545;
+    margin:0 auto;
+    position: relative;
+    top: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0.7px;
+    
+
+}
+
+
+.complemento-rod{
+    background-color: #dc3545;
+    height: 30px;
+} 
+
+
+.footer-link li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.footer-link li a{
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner-rodape{
+    max-width: 75%;
+    min-height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.complemento-rod2{
+    background-color: #dc3545;
+    height: 30px;
+    position: relative;
+    top: 5px;
+} 
+
+.parceiros li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-text p{
+    color: white;
+    font-family: 'roboto';
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    text-align: justify;
+}
+            img.bandeira{
+                width: 200px;
+            }
+            
+/*css do cadastro*/
+
+ .navbar-inverse, .dropdown-menu{
+                background-color #000 !important;
+            }
+
+            .navbar-inverse a{
+            color: #ff0000; !important;
+            }
+            p.legenda{
+                -webkit-text: 1.3px black;
+                font-size: 30px;
+            }
+            div.row{
+                text-align: center;
+                font-style: oblique; 
+                color: #ff0000;          
+
+            }
+
+            h2.alert{
+                background-color: firebrick; !important
+                
+                
+            }
+            a.dropdown-item{
+                color:floralwhite;
+            }
+            a.dropdown-divider{
+                background-color: darkorange;
+            }
+           
+            body {
+            color: #ffffff;
+            }
+            
+            backgound-image{
+                position: fixed;
+                width: 100%;
+                height: 100%;
+            }
+            
+            #carouselExampleControls{
+                margin-top: -50px;
+            }
+            
+            img.logo{
+                margin-top: 10px;
+            }
+            
+            a.nav-link{
+                position: relative;
+                left: 1030px;
+                border: solid 1px white;
+                margin-left: 5px;
+            }
+            
+            div.dropdown-menu{
+                position: relative;
+                left: 1300px;
+            }
+            
+            div.especial{
+                border: solid 1px blue;;
+                text-align: left;
+                font-size: 15pt;
+                background-color: blue;
+                
+                
+            }
+            
+             div.inicie{
+                border: solid 20px #ff0000;;
+                text-align: left;
+                font-size: 15pt;
+                background-color: #ff0000;
+                
+                
+            }
+            
+            h1{
+               color: black;
+            }
+            
+            div.form-row{
+                color: black;
+            }
+            
+/*css da página inicial*/
+
+.navbar-inverse, .dropdown-menu{
+                background-color #000 !important;
+            }
+
+            .navbar-inverse a{
+            color: #ff0000; !important;
+            }
+            p.legenda{
+                -webkit-text: 1.3px black;
+                font-size: 30px;
+            }
+            div.row{
+                text-align: center;
+                font-style: oblique; 
+                color: #ff0000;          
+
+            }
+
+            h2.alert{
+                background-color: firebrick; !important
+                
+                
+            }
+            a.dropdown-item{
+                color:floralwhite;
+            }
+            a.dropdown-divider{
+                background-color: darkorange;
+            }
+           
+            body {
+            background-image: url(fundo.pizza.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            
+            backgound-image{
+                position: fixed;
+                width: 100%;
+                height: 100%;
+            }
+            
+            #carouselExampleControls{
+                margin-top: -50px;
+            }
+            
+            img{
+                width: 100px;
+            }
+            
+            a.nav-link{
+                position: relative;
+                left: 550px;
+                border: solid 1px white;
+                margin-left: 5px;
+                line-height: 20px;
+                margin-right: 20px;
+                
+            }
+            
+           
+            div.classica{
+                
+                text-align: center;
+                font-size: 15pt;
+                background-color: #ff0000;
+               
+            }
+            nav.navbar.navbar-expand-md.navbar-inverse.navbar-dark.bg-danger{
+                background-color: #ff0000;
+            }
+            h4{
+                color: white;
+            }
+            p.nossas{
+                color: white;
+            }
+            
+            img.logo{
+                position: relative;
+                left: 500px               
+                
+            }
+            
+           .rodape{
+    background-color: #dc3545;
+    margin:0 auto;
+    position: relative;
+    top: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0.7px;
+    
+
+}
+
+
+.complemento-rod{
+    background-color: #dc3545;
+    height: 30px;
+} 
+
+
+.footer-link li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.footer-link li a{
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner-rodape{
+    max-width: 75%;
+    min-height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.complemento-rod2{
+    background-color: #dc3545;
+    height: 30px;
+    position: relative;
+    top: 5px;
+} 
+
+.parceiros li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-text p{
+    color: white;
+    font-family: 'roboto';
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    text-align: justify;
+}
+            img.bandeira{
+                width: 200px;
+            }
+            
+        
