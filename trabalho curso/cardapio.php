@@ -26,236 +26,167 @@
             </ul>
           </div>
         </nav>
-      
-      <br>
-<main class="container">
-        <div class="inicie" ><strong>Inicie o seu Pedido</strong><img src="logo-jo%C3%A3o.png" class="log"> </div><br><br>
-                 
-        <div class="especial" ><strong>Especialidades</strong>
-        <p class="preco">Pequena -> R$ 18,00</p>
-        <p class="preco1">Média -> R$ 26,00</p>
-        <p class="preco2">Grande -> R$ 37,00</p>
-    </div>
-          
-<div class="col-sm-3 col-md-12 col-lg-12" style="background-color: #f2f2f2;">
-    <div class="col-sm-3 col-md-12 col-lg-12" style="background-color: #f2f2f2;"><br>
-		
-          <div class="row">
-                <div class="col-sm">
-                      <img src="especialidades/3%20queijos.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>3 QUEJOS</strong></h5>
-                                <p>Mussarela, requeijão e parmesão ralado.</p>
+
+        <?php 
+                $Tradicionais = array(
+                    array(
+                        "id" => 1,
+                        "nome" => "Alho e Óleo",
+                        "texto" => "Molho, mussarela, alho e óleo, orégano."
+                    ),
+                    array(
+                        "id" => 2,
+                        "nome" => "Alho Poró",
+                        "texto" => "Molho, mussarela, alho poró, bacon, provolone e orégano."
+                    ),
+                    array(
+                        "id" => 3,
+                        "nome" => "Americana",
+                        "texto" => "Molho, mussarela, bacon, tomate, ovos e orégano."
+
+                    ),
+                    array(
+                        "id" => 4,
+                        "nome" => "Bacon",
+                        "texto" => "Molho, mussarela, bacon e orégano."
+
+                    ),
+                    array(
+                        "id" => 5,
+                        "nome" => "Bolonhesa",
+                        "texto" => "Molho, mussarela, carne moída e orégano."
+
+                    ),
+                    array(
+                        "id" => 6,
+                        "nome" => "Calabresa",
+                        "texto" => "Molho, mussarela, calabresa e orégano."
+
+                    ),
+                    array(
+                        "id" => 7,
+                        "nome" => "Calabresa com Catupiry",
+                        "texto" => "Molho, mussarela, calabresa, catupiry e orégano."
+
+                    ),
+                    array(
+                        "id" => 1,
+                        "nome" => "Calabresa Mineira",
+                        "texto" => "Molho, mussarela, calabresa, milho, bacon e orégano."
+
+                    ),
+                    array(
+                        "nome" => "Escarola",
+                        "texto" => "Molho, mussarela, escarola, alho, bacon e orégano."
+
+                    ),
+                    array(
+                        "nome" => "Frango",
+                        "texto" => "Molho, mussarela, frango e orégano."
+
+                    )
+                    );
+
+                    $Supremes = array(
+                        array(
+                            "nome" => "Barbecue",
+                            "texto" => "Molho, mussarela, cubos de mignon, bacon, catupiry, barbecue e orégano."
+                        ),
+
+                        array(
+                            "nome" => "Camarão",
+                            "texto" => "Molho, mussarela, camarão e orégano."
+                        ),
+
+                        array(
+                            "nome" => "Catumarão",
+                            "texto" => "Molho, mussarela, camarão, catupiry e orégano."
+                        ),
+
+                        array(
+                            "nome" => "Dom Angelino",
+                            "texto" => "Molho, mussarela, cubos de mignon, palmito, gorgonzola e orégano."
+                        )
+                        );
+
+                        $Doces= array(
+                            array(
+                                "nome" => "Banana",
+                                "texto" => "Leite condensado, banana, açúcar e canela."
+                            ),
+    
+                            array(
+                                "nome" => "Banana Crocante",
+                                "texto" => "Mussarela, leite condensado, banana e farofa doce."
+                            ),
+    
+                            array(
+                                "nome" => "Banoff",
+                                "texto" => "Mussarela, banana, doce de leite, chocolate branco e canela."
+                            ),
+    
+                            array(
+                                "nome" => "Brigadeiro",
+                                "texto" => "Leite condensado, mussarela, chocolate, chocolate granulado e cereja."
+                            ),
+                            array(
+                                "nome" => "Califórnia",
+                                "texto" => "Leite condensado, mussarela, figo, goiaba, abacaxi e pêssego."
+                            ),
+                            array(
+                                "nome" => "Charge",
+                                "texto" => "Leite condensado, mussarela, chocolate preto ou branco, amendoim e caramelo."
+                            )
+                            );
+
+
+            ?>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-lg-12">
+        <h1 class="cardapio">Cardápio</h1>
+    </div>    
+</div>      
+        
+<div class="row"> 
+    <div class="col-md-12 col-sm-12 col-lg-12">
+        <div class="cardapio">
+            <h2><center>Pizzas Tradicionais</center></h2>
+     <?php for($i = 0; $i < sizeof($Tradicionais); $i++) : ?>
+        <p class="cardapio"><strong><?= $Tradicionais[$i]["nome"] ?></strong></p>
+            <p class="cardapio2"><?= $Tradicionais[$i]["texto"] ?></p>
+
                     
-                </div>
-                
-                <div class="col-sm">
-                      <img src="especialidades/calabresap.jpg" width="100" id="calabresa">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>CALABRESA</strong></h5>
-                    <p>Mussarela, calabresa e cebola.</p>
-                </div>
-                <div class="col-sm">
-                      <img src="especialidades/frango%20com%20requeij%C3%A3o.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>FRANGO COM REQUEIJÃO</strong></h5>
-                    <p>Frango desfiado, cebola e requeijão.</p>
-                </div>
-                
-                <div class="col-sm">
-                      <img src="especialidades/mussarela.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>MUSSARELA</strong></h5>
-                    <p>Queijo mussarela.</p>
-                </div>
-                 
-                <div class="col-sm">
-                      <img src="especialidades/presunto.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>PRESUNTO</strong></h5>
-                    <p>Mussarela e presunto.</p>
-                </div>
+
+<?php endfor?>
+                    
+                    <br>
+                    
+<h2><center>Pizzas Supremes</center></h2>
+
+    <?php for($i = 0; $i < sizeof($Supremes); $i++) : ?>
+        <p class="cardapio"><strong><?= $Supremes[$i]["nome"] ?></strong></p>
+        <p class="cardapio2"><?= $Supremes[$i]["texto"] ?></p>
+
+    <?php endfor?>
+                    
+                    <br>
+                    
+                    <br>
+                    
+<h2><center>Pizzas Doces</center></h2>
+    <?php for($i = 0; $i < sizeof($Doces); $i++) : ?>
+        <p class="cardapio"><strong><?= $Doces[$i]["nome"] ?></strong></p>
+        <p class="cardapio2"><?= $Doces[$i]["texto"] ?></p>
+
+<?php endfor?>
+                    
+                    <br>
             </div>
-          
-      </div>
-</div>
-        <br>
-          
-<div class="premium" ><strong>Premium</strong>
-    <p class="preco3">Pequena -> R$ 21,00</p>
-        <p class="preco4">Média -> R$ 30,00</p>
-        <p class="preco5">Grande -> R$ 45,00</p>
+        </div>
     </div>
-          
-<div class="col-sm-3 col-md-12 col-lg-12" style="background-color: #f2f2f2;">
-    <div class="col-sm-3 col-md-12 col-lg-8" style="background-color: #f2f2f2;"><br>
-		
-          <div class="row">
-                <div class="col-sm">
-                      <img src="premium/4queijos.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>4 QUEJOS</strong></h5>
-                    <p>Mussarela, requeijão, gorgonzola e parmesão ralado.</p>
-                </div>
-                <div class="col-sm">
-                      <img src="premium/america.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>AMÉRICA</strong></h5>
-                    <p>Mussarela, pepperoni, champignon, cebola e pimentão verde.</p>
-                </div>
-                <div class="col-sm">
-                      <img src="premium/calabresa%20especial.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>CALABRESA ESPECIAL</strong></h5>
-                    <p>Mussarela, azeitona preta, calabresa, cebola e Philadelphia®.</p>
-                </div>                              
-                
-                      <div class="col-sm">
-                      <img src="premium/portuguesa.jpg" width="100">
-                          <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong>PORTUGUESA</strong></h5>
-                          <p>Mussarela, presunto, ovo de codorna, azeitona preta, cebola e pimentão verde.</p>
-                </div>
-                
-                
-            </div>
-          
-      </div>
-</div>
-     
-   <br>
-    
-<div class="super" ><strong>Super Premium</strong>
-    <p class="preco6">Pequena -> R$ 26,00</p>
-        <p class="preco7">Média -> R$ 37,00</p>
-        <p class="preco8">Grande -> R$ 55,00</p>
-    </div>
-          
-<div class="col-sm-3 col-md-12 col-lg-12" style="background-color: #f2f2f2;">
-    <div class="col-sm-3 col-md-12 col-lg-8" style="background-color: #f2f2f2;"><br>
-		
-          <div class="row">
-               
-                <div class="col-sm">
-                      <img src="superpremium/extravaganzza.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>EXTRAVAGANZZA</center></strong></h5>
-                    <p>Mussarela, pepperoni, presunto, azeitona preta, champignon, cebola e pimentão verde.</p>
-                 </div>
-                <div class="col-sm">
-                      <img src="superpremium/frango%20grelhado.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>FRANGO GRELHADO</center></strong></h5>
-                    <p>Mussarela, frango, requeijão, tomate, azeitona preta e manjericão.</p>
-                </div>
-                      <div class="col-sm">
-                      <img src="superpremium/meat%20&%20bacon.jpg" width="100">
-                          <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>MEAT & BACON</center></strong></h5>
-                          <p>Mussarela, bacon, calabresa, pepperoni e presunto.</p>
-                </div>
-                <div class="col-sm">
-                      <img src="superpremium/pepperrok.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>PEPPERROK</center></strong></h5>
-                    <p>Mussarela, pepperoni, azeitona preta, parmesão ralado, Philadelphia ® e alho granulado.</p>
-                </div>
-               
-            </div>
-          
-      </div>
-</div>
-    <br>
-    
-    <div class="doces" ><strong>Pizzas Doces</strong>
-    <p class="preco9">Pequena -> R$ 17,00</p>
-        <p class="preco10">Média -> R$ 28,00</p>
-        <p class="preco11">Grande -> R$ 35,00</p>
-    </div>
-          
-<div class="col-sm-3 col-md-12 col-lg-12" style="background-color: #f2f2f2;">
-    <div class="col-sm-3 col-md-12 col-lg-8" style="background-color: #f2f2f2;"><br>
-		
-          <div class="row">
-                <div class="col-sm">
-                      <img src="doces/confete.jpg" height="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>CONFETI</center></strong></h5>
-                    <p>Leite condensado, mussarela, chocolate ao leite e confeti.</p>
-                </div>
-               
-                <div class="col-sm">
-                      <img src="doces/morango%20com%20chocolate.jpg" height="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>SENSAÇÃO</center></strong></h5>
-                    <p>Leite condensado, mussarela, morango, chocolate ao leite.</p>
-                </div>
-                
-                <div class="col-sm">
-                      <img src="doces/pizza_banana.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>CHOCOBANA</center></strong></h5>
-                    <p>Leite condensado, mussarela, banana e chocolate.</p>
-                 </div>
-                <div class="col-sm">
-                      <img src="doces/romeu%20e%20julieta.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>ROMEU E JULIETA</center></strong></h5>
-                    <p>Mussarela, leite condensado, goiabada e ricota.</p>
-                </div>
-                   
-               
-            </div>
-          
-      </div>
-</div>
-    <br>
-    
-    <div class="doces" ><strong>REFRIGERANTES</strong></div>
-          
-<div class="col-sm-3 col-md-12 col-lg-12" style="background-color: #f2f2f2;">
-    <div class="col-sm-3 col-md-12 col-lg-12" style="background-color: #f2f2f2;"><br>
-		
-          <div class="row">
-                <div class="col-sm">
-                      <img src="bebidas/coca.jpg" height="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>COCA-COLA 2L</center></strong></h5>
-                    <p class="refri">R$8,00</p>
-                </div>
-               
-                <div class="col-sm">
-                      <img src="bebidas/guarana%20antarctica.jpg" height="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>GUARANÁ ANTARCTICA 2L</center></strong></h5>
-                    <p class="refri">R$7,50</p>
-                </div>
-                
-                <div class="col-sm">
-                      <img src="bebidas/sprite.jpg">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>SPRITE 2L</center></strong></h5>
-                    <p class="refri">R$7,00</p>
-                 </div>
-                <div class="col-sm">
-                      <img src="bebidas/fanta%20laranja.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>FANTA LARANJA 2L</center></strong></h5>
-                    <p class="refri">R$7,00</p>
-                </div>
-                   
-                <div class="col-sm">
-                      <img src="bebidas/fanta%20uva.jpg" width="100">
-                    <button type="#" class="btn btn-primary">Comprar</button>
-                                <h5 style="margin-top: 25px"><strong><center>FANTA UVA 2L</center></strong></h5>
-                    <p class="refri">R$7,00</p>
-                </div>
-              
-              
-            </div>
-          
-      </div>
-</div>
+        
+</div> 
     
     </main>
 <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
